@@ -17,7 +17,7 @@
       required
       size="{30}"
       type="text"
-      value="{{dog.name or ''}}"
+      value="{{dog.name | default:''}}"
     />
   </div>
   <div>
@@ -28,7 +28,7 @@
       required
       size="{30}"
       type="text"
-      value="{{dog.breed or ''}}"
+      value="{{dog.breed | default:''}}"
     />
   </div>
 

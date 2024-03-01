@@ -1,5 +1,5 @@
-{% for _dog in dogs %}
-  {% with dog=_dog %}
+{% for dog in dogs %}
+  {% with dog=dog %}
     {% include 'dog-row.html' %}
   {% endwith %}
 {% endfor %}
