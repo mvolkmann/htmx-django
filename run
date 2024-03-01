@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+# Flask looks for the file `app.py` by default.
+# The --reload option restarts the server when files are changed,
+# but it does not refresh the browser.
+cd dogs
+python manage.py runserver
